@@ -4,8 +4,9 @@ import hashlib
 from Crypto import Random
 from Crypto.Cipher import AES
 
-#if you see this commend, that's mean I haven't finish yet this project
+#if you see this comment, that's mean I haven't finish yet this project
 #by github.com/wishihab
+#this python code made for linux user with love
 
 
 print("Welcome to WeDefend by wishihab")
@@ -24,12 +25,9 @@ if fr ==1:
 	print("6. Listing UDP LISTENing connection")
 
 	chs = int(input("NetworkAct: input a number : "))
-	if chs == 1: os.system("clear") os.system("netstat -atu")
-	if chs == 2: os.system("clear") os.system("netstat -at")
-	if chs == 3: os.system("clear") os.system("netstat -au")
-	if chs == 4: os.system("clear") os.system("netstat -ltu")
-	if chs == 5: os.system("clear") os.system("netstat -lt")
-	if chs == 6: os.system("clear") os.system("netstat -lu")
+	if chs == 1: os.system("clear") os.system("netstat -atu") if chs == 2: os.system("clear") os.system("netstat -at")
+	if chs == 3: os.system("clear") os.system("netstat -au") if chs == 4: os.system("clear") os.system("netstat -ltu")
+	if chs == 5: os.system("clear") os.system("netstat -lt") if chs == 6: os.system("clear") os.system("netstat -lu")
 	if chs >= 7: print("-==========OOVVEERR NNUUMMBBEERR============-")
 		
 if fr == 2:
@@ -65,9 +63,7 @@ if fr == 4:
 		#declare variable for pathfolder $varfolder
 		lck = raw_input("Usage: ")
 		if lck =='lock get$varfolder'
-			#do locking folder with filter
-			#if os.windows do locking cacls with echo
-			#if os.linux do locking here
+			#linux do locking here
 			#notify encryption
 	if tls == 2:
 		print("Usage: encrypt /pathfile/ or decrypt /pathfile/")

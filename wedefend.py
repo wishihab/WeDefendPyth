@@ -25,9 +25,9 @@ if fr ==1:
 	print("6. Listing UDP LISTENing connection")
 
 	chs = int(input("NetworkAct: input a number : "))
-	if chs == 1: os.system("clear") os.system("netstat -atu") if chs == 2: os.system("clear") os.system("netstat -at")
-	if chs == 3: os.system("clear") os.system("netstat -au") if chs == 4: os.system("clear") os.system("netstat -ltu")
-	if chs == 5: os.system("clear") os.system("netstat -lt") if chs == 6: os.system("clear") os.system("netstat -lu")
+	if chs == 1: os.system("clear") os.system("netstat -atu | awk {'print $1 " => " $4 " => " $5'}") if chs == 2: os.system("clear") os.system("netstat -at | awk {'print $1 " => " $4 " => " $5'}")
+	if chs == 3: os.system("clear") os.system("netstat -au | awk {'print $1 " => " $4 " => " $5'}") if chs == 4: os.system("clear") os.system("netstat -ltu | awk {'print $1 " => " $4 " => " $5'}")
+	if chs == 5: os.system("clear") os.system("netstat -lt | awk {'print $1 " => " $4 " => " $5'}") if chs == 6: os.system("clear") os.system("netstat -lu | awk {'print $1 " => " $4 " => " $5'}")
 	if chs >= 7: print("-==========OOVVEERR NNUUMMBBEERR============-")
 		
 if fr == 2:

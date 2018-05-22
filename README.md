@@ -1,5 +1,5 @@
 <h1 align="center">WeDefend Python</h1>
-<h4 align="center">MONITOR AND PROTECT LINUX FROM REMOTE ACCESS TOOL TROJAN</h4>
+<h4 align="center">MONITOR AND PROTECT DEVICE FROM REMOTE ACCESS TOOL TROJAN</h4>
 
 
 

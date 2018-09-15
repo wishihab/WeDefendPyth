@@ -14,4 +14,4 @@ WeDefendPyth is application based on Python programming language with several fe
 
 
 ## Progress
-- [ ] Finish
+- [ ] Finish Project
